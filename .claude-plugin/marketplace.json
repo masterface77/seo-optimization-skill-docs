@@ -1,0 +1,24 @@
+{
+  "name": "seo-optimization-marketplace",
+  "version": "1.0.0",
+  "description": "Marketplace da skill de SEO Optimization para o Claude CLI",
+  "owner": {
+    "name": "Levi Reis",
+    "email": "masterface77@gmail.com",
+    "url": "https://github.com/masterface77"
+  },
+  "metadata": {
+    "description": "Skill especializada em otimização de SEO baseada nos fundamentos do Google Search, cobrindo rastreabilidade, indexação, Core Web Vitals, dados estruturados e SEO para SPAs modernas.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "seo-optimization-skill",
+      "description": "Skill completa de SEO: robots.txt, sitemap, meta tags, Schema.org/JSON-LD, Open Graph, Core Web Vitals (LCP, CLS, INP), SEO para React/Next.js/Vite, e monitoramento com Google Search Console.",
+      "source": {
+        "url": "https://github.com/masterface77/seo-optimization-skill-docs"
+      },
+      "tags": ["seo", "google-search", "core-web-vitals", "schema.org", "next.js", "react", "performance", "meta-tags"]
+    }
+  ]
+}
