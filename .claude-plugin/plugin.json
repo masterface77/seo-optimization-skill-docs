@@ -1,55 +1,10 @@
 {
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
   "name": "seo-optimization-skill",
-  "version": "1.0.0",
-  "description": "Skill especializada em otimização de SEO: Google Search Fundamentals, Core Web Vitals, dados estruturados, meta tags, robots.txt, sitemap e SEO técnico para SPAs/React/Next.js.",
+  "description": "Skill especializada em SEO baseada nos fundamentos do Google Search: robots.txt, sitemap, meta tags, Schema.org/JSON-LD, Core Web Vitals e SEO técnico para React/Next.js/Vite.",
   "author": {
     "name": "Levi Reis",
     "email": "masterface77@gmail.com",
     "url": "https://github.com/masterface77"
-  },
-  "repository": "https://github.com/masterface77/seo-optimization-skill-docs",
-  "license": "MIT",
-  "tags": ["seo", "google-search", "core-web-vitals", "schema.org", "meta-tags", "next.js", "react", "performance"],
-  "skills": [
-    {
-      "name": "seo-optimization",
-      "description": "Skill completa de SEO cobrindo rastreabilidade, indexação, meta tags, dados estruturados, Core Web Vitals, SEO técnico e monitoramento com Google Search Console.",
-      "path": "SKILL.md",
-      "triggers": [
-        "seo",
-        "search engine optimization",
-        "otimização de busca",
-        "google search",
-        "googlebot",
-        "indexação",
-        "robots.txt",
-        "sitemap",
-        "meta tags",
-        "core web vitals",
-        "schema.org",
-        "json-ld",
-        "open graph",
-        "google search console",
-        "canonical",
-        "lcp",
-        "cls",
-        "inp"
-      ],
-      "references": [
-        "references/crawling_indexing.md",
-        "references/content_meta.md",
-        "references/structured_data.md",
-        "references/technical_seo.md",
-        "references/spa_seo.md",
-        "references/monitoring.md"
-      ]
-    }
-  ],
-  "workflows": [
-    {
-      "name": "seo-checklist",
-      "description": "Workflow passo a passo para implementação completa de SEO",
-      "path": "workflows/seo_checklist.md"
-    }
-  ]
+  }
 }
